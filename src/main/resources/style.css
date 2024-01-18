@@ -1,0 +1,62 @@
+.root {
+    -fx-border-width: 0 0 5 0;
+}
+
+.button {
+    -fx-border-radius: 20px ;
+    -fx-background-color: rgba(1,255,0,0);
+    -fx-font-size: 20px;
+    -fx-border-width: 0.5px;
+    -fx-border-style: solid;
+    -fx-width: 60px;
+    -fx-font-family: 'Arial, Helvetica, sans-serif' ;
+    -fx-font-weight: bold;
+    -fx-border-color: rgba(50,50,50,50);
+}
+.button:hover {
+    -fx-border-style: solid;
+    -fx-border-radius: 20px;
+    -fx-border-width: 3px;
+    -fx-border-color: rgba(29,129,129,100);
+}
+#text{
+    -fx-font: 30px Tahoma;
+    -fx-fill: black;
+    -fx-stroke:black;
+    -fx-stroke-width:1;
+}
+#textField{
+    -fx-border-radius: 20px ;
+    -fx-background-color: rgba(1,255,0,0);
+    -fx-font-size: 100px;
+    -fx-border-width: 0.5px;
+    -fx-width: 60px;
+    -fx-font-family: 'Arial, Helvetica, sans-serif' ;
+    -fx-font-weight: bold;
+    -fx-border-color: grey;
+    -fx-alignment: center ;
+}
+.listView:filled:selected:focused, .list-cell:filled:selected {
+    /* 3:, 4: */
+    -fx-background-color: linear-gradient(#333 0%, #777 25%, #aaa 75%, #eee 100%);
+    -fx-text-fill: white; /* 5 */
+}
+.listView{
+    -fx-text-fill: black; /* 5 */
+    -fx-border-radius: 20px ;
+    -fx-background-color: rgba(1,255,0,0);
+    -fx-font-size: 20px;
+    -fx-border-width: 0.5px;
+    -fx-border-style: solid;
+    -fx-width: 60px;
+    -fx-font-family: 'Arial, Helvetica, sans-serif' ;
+    -fx-font-weight: bold;
+    -fx-border-color: rgba(0,221,120,255);
+}
+.list-cell:odd { -fx-background-color: white; /* 1 */ }
+.list-cell:even { -fx-background-color: rgba(120,255,183,100); /* for information */ }
+.list-cell:filled:hover {
+    -fx-background-color: #00f; /* 2 */
+    -fx-text-fill: white; /* 5 */
+}
+
